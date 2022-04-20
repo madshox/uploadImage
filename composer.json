@@ -1,0 +1,29 @@
+{
+    "name": "madshox/uploadimages",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "madshox",
+            "email": "mad.shox@mail.ru",
+            "homepage": "https://github.com/madshox"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Madshox\\UploadImages\\Providers\\UploadImageProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Madshox\\UploadImages\\": "src"
+        }
+    }
+}
